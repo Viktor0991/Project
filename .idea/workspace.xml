@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb1e5632-87db-4753-a69a-fd0c375c95d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="bb1e5632-87db-4753-a69a-fd0c375c95d8" name="Default Changelist" comment="1) Все подогнал под TestNG.&#10;2) Сделал наследование и создал Runner для теста.&#10;3) Сделал условие для OC.&#10;4) Узнал новое ожидание Selenium.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/eldorado/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/eldorado/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/eldorado/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/eldorado/FirstTest.class" afterDir="false" />
     </list>
+    <list id="8de4dc90-7857-4573-8dbe-c1481cea4b85" name="Revert &quot;Мой первый тест.&quot;" comment="Revert &quot;Мой первый тест.&quot;&#10;&#10;This reverts commit 72c88602" />
+    <list id="b5a9dae0-090d-4e4e-9f21-f45c9226ddf4" name="Мой первый тест." comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +32,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YwG0HRMw4CdVy3tkmVXO3BJ5Rt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,7 +54,20 @@
       <recent name="C:\Users\vvershanskiy\IdeaProjects\FirstProject\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.eldorado.Runner" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.eldorado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstProject" />
       <extension name="coverage">
@@ -113,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="JUnit.FirstTest" />
         <item itemvalue="JUnit.FirstTest.sait" />
         <item itemvalue="JUnit.TestClass" />
@@ -173,10 +193,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583935253700" />
-    <state x="419" y="5" key="CommitChangelistDialog2" timestamp="1584008586259">
+    <state x="419" y="0" key="CommitChangelistDialog2" timestamp="1584350522384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="419" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584008586259" />
+    <state x="419" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584350522384" />
     <state x="142" y="64" key="DiffContextDialog" timestamp="1584008539620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -193,22 +213,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="639" y="306" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1584008915987" />
-    <state width="1493" height="146" key="GridCell.Tab.0.bottom" timestamp="1584007484153">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1584350314718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584007484153" />
-    <state width="1493" height="146" key="GridCell.Tab.0.center" timestamp="1584007484153">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584350314718" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1584350314718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584007484153" />
-    <state width="1493" height="146" key="GridCell.Tab.0.left" timestamp="1584007484153">
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584350314718" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1584350314718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584007484153" />
-    <state width="1493" height="146" key="GridCell.Tab.0.right" timestamp="1584007484153">
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584350314718" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1584350314718">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="146" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584007484153" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584350314718" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1583851106214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -253,5 +273,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1584008617593" />
+    <state x="511" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1584349956091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="31" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1584349956091" />
   </component>
 </project>
