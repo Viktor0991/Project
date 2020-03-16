@@ -1,0 +1,1 @@
+{"uuid":"ca65a073-d471-4f95-b372-c3baa54e0edb","name":"ru.eldorado.FirstTest","start":1584341338564,"stop":1584341357659,"children":["4a043eb4-d35d-4cb5-b1a2-c44fabb7ef8d"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","start":1584341338594,"stop":1584341357194}]}
