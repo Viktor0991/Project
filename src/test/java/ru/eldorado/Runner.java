@@ -5,11 +5,12 @@ import java.awt.*;
 public class Runner {
     public static void main(String[] args) {
         ClassPeriod classPeriod = new ClassPeriod();
-        classPeriod.setup();
+        classPeriod.openWebsite();
         try {
-            classPeriod.sait();
+            classPeriod.mainMethodTest();
         } catch (InterruptedException | AWTException e) {
             e.printStackTrace();
         }
+        classPeriod.closeDriver();
     }
 }
