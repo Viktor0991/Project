@@ -8,16 +8,17 @@ import java.awt.event.KeyEvent;
 import java.util.concurrent.TimeUnit;
 
 public class FirstTest {
-    protected WebDriver driver;
+   protected WebDriver driver;
 
     @Test
-    public void sait() throws InterruptedException, AWTException {
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    public void mainMethodTest() throws InterruptedException, AWTException {
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         searchIphone();
         addBasket();
         addAccessory();
         checkPriceLast();
         pleaseContinue();
+
     }
 
     @Step("Поиск товара по значению iphonexs, и убираем всплывающее окно")
@@ -30,9 +31,10 @@ public class FirstTest {
     }
     @Step("Добавление в корзину и переход в мою корзину")
     private void addBasket() throws InterruptedException{
-        driver.findElement(By.xpath("/html/body/div[10]/div[1]/div/div[5]/div/div[3]/div[2]/div[1]/div[2]/div[1]/noindex/a/span")).click();
+        driver.findElement(By.xpath("/html/body/div[11]/div[1]/div/div[5]/div/div[3]/div[2]/div[1]/div[2]/div[1]/noindex/a/span/span")).click();
+
         Thread.sleep(1000);
-        driver.findElement(By.xpath("/html/body/div[10]/div[1]/div/div[5]/div/div[3]/div[2]/div[4]/div[2]/div[1]/noindex/a")).click();
+        driver.findElement(By.xpath("/html/body/div[11]/div[1]/div/div[5]/div/div[3]/div[2]/div[6]/div[2]/div[1]/noindex/a/span/span")).click();
         driver.findElement(By.xpath("/html/body/header/div[2]/div/div[2]/noindex[2]/div/a/span[2]")).click();
     }
     @Step("Добавляем нужные аксессуары")
